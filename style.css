@@ -1,0 +1,38 @@
+html,body {
+    margin: 0px;
+    height: 100%;
+}
+
+.nav-center {
+    background-color: burlywood;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-center a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav-center a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav-center a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content-main {
+    background-color: rgb(19, 50, 51);
+    height: 100%;
+    width: 100%;
+}
