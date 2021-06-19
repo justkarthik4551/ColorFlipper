@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  background-color: aquamarine;
+  color: #2e2e2e;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #DCE1E3;
+}
+
+.topelement {
+  display: inline-block;
+  color:#B73225;
+  padding-right: 100px;
+  font-size: 20px;
+}
+
+.toptitle {
+  display: inline-block;
+  color:#004E7C;
+  padding-right: 600px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#topbar {
+  line-height: 50px;
+  text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+text-decoration: none;
+}
+
+.content {
+  margin:50px;
+  padding:5px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  font-size: 30px;
+}
+
+.container {
+  background-color: black;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.container div{
+  display: inline-block;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.container {
+  background-color: #5C5F58;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+
+#backgroundColor {
+  color: white;
+}
+
+#currentColor {
+  color: #DCE1E3;
+  
+}
+
+#btn {
+  padding: 15px 15px 15px 15px;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #DCE1E3;
+  color: #591C0B;
+}
+
+#Simple {
+  cursor: default;
+}
+
+#Hex {
+  cursor: pointer;
+}

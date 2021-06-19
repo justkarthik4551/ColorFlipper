@@ -5,18 +5,35 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <title>Color Flipper || Simple</title>
         <!-- styles -->
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <nav class="nav-center">
-            <a class="active" href="#">Flip the color</a>
-            <a>Random</a>
-            <a>Random Again</a>
-        </nav>
-        <div class="content-main">
-            <div class="middle">
-                CLICK ME
+        <nav class="fixed-nav-bar">
+            
+            <div id="topbar">
+                <div class="toptitle">Color Flipper</div>
+                <div class="topelement" id="Simple">Simple</div> 
+                <div class="topelement" id="Hex">Hex</div>
             </div>
+            
+        </nav>
+        <div class="content">
+            <div class = "centered">
+                <div class="container">
+                    <div id = "backgroundColor">
+                        Background Color : 
+                    </div>
+                    <div id = "currentColor">
+                        aquamarine
+                    </div>
+                </div>
+                
+                <div class="buttonContainer">
+                    <button class="btn btn-hero" id="btn">Click Me</button>
+                </div>
+                
+            </div>
+            
         </div>
         
         <!-- javascript -->
